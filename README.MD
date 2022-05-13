@@ -17,3 +17,9 @@ Total: 6.058122s
 curl -o /dev/null -s -w 'Total: %{time_total}s\n' http://localhost:8080/consumer/p/APP                                                                                                                 [15:31:32]
 Total: 2.088072s
 ```
+
+#### DB Call
+- Currently done with R2DBC
+- There is lib available for reactive Hibernate
+- https://github.com/hibernate/hibernate-reactive
+- No official Hibernate support from Spring yet
